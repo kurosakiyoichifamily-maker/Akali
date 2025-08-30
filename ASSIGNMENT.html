@@ -1,0 +1,182 @@
+x<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1,0">
+  <title>Anime Characters</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;   
+    }
+    .character-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    
+    .character-card {
+      border: 2px solid purple;
+      border-radius: 10px;
+      background-color: rgba(128, 0, 128, 0.3);
+      width: 220px;
+      padding: 10px;
+      box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+.character-card2 {
+      border: 2px solid gold;
+      border-radius: 10px;
+      background-color: rgba(0, 128, 0, 0.2);
+      width: 220px;
+      padding: 10px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+.character-card3 {
+      border: 2px solid royalblue;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      width: 220px;
+      padding: 10px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .character-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  .character-card2 img {
+      width: 100%;
+      height: auto;   
+      border-radius: 10px;
+    }
+  .character-card3 img {
+      width: 100%;
+      height: auto;   
+      border-radius: 10px;
+    }
+  .character-des {
+      border: 2px solid royalblue;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      text-align: Justify;
+}  
+  h1{
+    text-align: center;
+    color: white;  
+  }
+  .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 300%;
+      min-height: 300%;
+      background-size: cover;
+      z-index: -1;    
+    }
+    h1 {
+      font-size: 40px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(90deg, red, purple, indigo, blue, violet);
+      background-size: 300% 300%;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      animation: gradientMove 5s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    
+}
+  .character-card2:active{
+  transform: scale(0.98);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  background-color: rgba(0, 150, 150, 0.5);
+  }
+.character-card:active,
+.character-card3:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+  .social-links {
+margin-top: 10px;
+}
+
+.social-links a {
+color: #fff;
+text-decoration: none;
+margin: 0 8px;
+}
+
+.social-links a:hover {
+text-decoration: underline;
+}
+  footer {
+text-align: center;
+padding: 20px;
+background-color: rgba(0,0,0,0.5);
+color: #fff;
+margin-top: 40px;
+}
+
+</style>
+ 
+</head>
+<video class="video-bg" autoplay muted loop playsinline>
+    <source src="Starguardian.mp4" type="video/mp4">
+</video>
+
+
+<body>
+  <h1>My Favorite Anime Game Characters</h1>
+  <div class="character-container">   
+    
+<button class="character-card">
+      <b style="font-size: 15px; color: powderblue;">Akali</b>
+      <img src="Akali.jpeg" alt="Akali">
+      <p style="color: lightblue;">Akali specifically Star Guardian Akali she is a warrior of light who took the power of darkness to protect her love-one`s but for the price of darkness haunting her forever</p>
+</button>
+    
+<button class="character-card2">
+      <b style="font-size: 15px; color: green;">Astra Yao</b>
+      <img src="Astra.jpeg" alt="Astra">
+      <p style="color: gold;">Astra Yao singer idol who wants to bring the world together even in an apocalyptic world through music and song what I love about her more is her fashion sense and how powerful she is</p>
+</button>
+
+<button class="character-card3">
+      <b style="font-size: 15px; color: lightblue;">Cipher</b>
+      <img src="Cipher.jpeg" alt="Cipher">
+      <p style="color: lightgray">The Demi-god of trickery her powers make any lie she says become a reality if enough people listen to it but even so she only used her powers to save the people she tricked</p>
+        
+</button>
+   <pre class="character-des"><b>  Why These Characters</b> 
+     Because these characters want to achieve a better
+     tommorow even if their own world is already falling apart but despite these obstacles
+     they fought for whats right and overcame them thats the person I want to be even if 
+     my life is slowly being torned by fate I wont accept it and ill fight to get my ideal 
+     future.
+   </pre>
+<audio controls autoplay loop>
+<source src="Porter.mp3" type="audio/mpeg">
+</audio>   
+</div>
+  <footer>
+ <div class="social-links">
+         
+<p>&copy; 2025 Jan Lee T. | All rights reserved.</p>
+ </div>
+</footer>
+</body>
+</html>
